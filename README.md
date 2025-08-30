@@ -48,5 +48,4 @@ The aim is to analyze historical cryptocurrency data, apply transformations, and
 ---
 
 
-   git clone https://github.com/your-username/crypto-price-forecasting.git
    cd crypto-price-forecasting
