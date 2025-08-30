@@ -48,4 +48,3 @@ The aim is to analyze historical cryptocurrency data, apply transformations, and
 ---
 
 
-   cd crypto-price-forecasting
