@@ -1,173 +1,168 @@
-🚀 Cryptocurrency Price Trends Forecasting
-🔮 The Future of Digital Assets – An In-Depth Data Science Exploration
+# 🚀 Cryptocurrency Price Trends Forecasting  
+### 🔮 *The Future of Digital Assets – An In-Depth Data Science Exploration*
 
-Welcome to one of the most comprehensive open-source projects focused on analyzing and forecasting cryptocurrency prices using advanced machine learning and deep learning techniques. 🌐📈
+Welcome to one of the most **comprehensive open-source projects** focused on **analyzing and forecasting cryptocurrency prices** using advanced **machine learning** and **deep learning** techniques. 🌐📈
 
-Cryptocurrencies like Bitcoin (BTC), Ethereum (ETH), and Solana (SOL) are reshaping the financial world. But as exciting as this space is, it's also volatile and unpredictable. This project aims to decode the price movements and forecast the future trends of digital assets using a robust, data-driven approach. 🧠💹
+Cryptocurrencies like **Bitcoin (BTC)**, **Ethereum (ETH)**, and **Solana (SOL)** are reshaping the financial world. This project aims to **decode price movements** and **forecast future trends** using a robust, data-driven approach. 🧠💹
 
-🧩 Project Objective
+---
 
-📌 To analyze historical cryptocurrency market data, detect patterns, and build forecasting models that help predict future price trends — aiding investors, data scientists, researchers, and crypto-enthusiasts alike.
+## 🧩 Project Objective
 
-📚 Table of Contents
+> 📌 To analyze historical cryptocurrency market data, detect patterns, and build forecasting models that help predict future price trends — aiding **investors**, **data scientists**, **researchers**, and **crypto-enthusiasts** alike.
 
-🔍 Project Features
+---
 
-🛠️ Tools & Technologies
+## 📚 Table of Contents
 
-📊 Data Sources
+- [🔍 Project Features](#-project-features)  
+- [🛠️ Tools & Technologies](#-tools--technologies)  
+- [📊 Data Sources](#-data-sources)  
+- [🧪 Machine Learning Models](#-machine-learning-models)  
+- [📈 Forecasting Techniques](#-forecasting-techniques)  
+- [📂 Project Structure](#-project-structure)  
+- [🧭 Roadmap](#-roadmap)  
+- [🤝 Contributing](#-contributing)  
+- [📄 License](#-license)  
+- [🌟 Show Support](#-show-support)  
+- [🔗 Connect With Me](#-connect-with-me)
 
-🧪 Machine Learning Models
+---
 
-📈 Forecasting Techniques
+## 🔍 Project Features
 
-📂 Project Structure
+✨ Key highlights of the project:
 
-🤝 Contributing
+- ✅ Real-time and historical data collection from APIs  
+- ✅ Exploratory Data Analysis (EDA)  
+- ✅ Time series forecasting using statistical & deep learning models  
+- ✅ Model comparison and evaluation  
+- ✅ Interactive plots and dashboards (optional)  
+- ✅ Backtesting framework  
+- ✅ Modular and scalable codebase
 
-📄 License
+---
 
-🌟 Show Support
+## 🛠️ Tools & Technologies
 
-🔍 Project Features
+| Category                | Libraries/Tools                           |
+|------------------------|-------------------------------------------|
+| Data Handling          | `Pandas`, `NumPy`                         |
+| Visualization          | `Matplotlib`, `Seaborn`, `Plotly`         |
+| Machine Learning       | `Scikit-learn`, `XGBoost`, `LightGBM`     |
+| Deep Learning          | `TensorFlow`, `Keras`                     |
+| Time Series Forecasting| `ARIMA`, `SARIMA`, `Prophet`, `VAR`       |
+| Others                 | `Jupyter Notebook`, `Streamlit` (UI)
 
-✨ Here's what this repository delivers:
+---
 
-✅ Real-time and historical data collection from major exchanges
+## 📊 Data Sources
 
-✅ Exploratory Data Analysis (EDA) to uncover trends, seasonality, and volatility
+This project uses trusted cryptocurrency market data from:
 
-✅ Price forecasting models using statistical, machine learning, and deep learning techniques
+- 🔗 [CoinGecko API](https://www.coingecko.com/)
+- 🔗 [Binance API](https://www.binance.com/)
+- 🔗 [Yahoo Finance](https://finance.yahoo.com/)
+- 🔗 [Kaggle Datasets](https://www.kaggle.com/)
 
-✅ Comparative model performance evaluation
+Key data points include:
 
-✅ Interactive visualizations and dashboards for deeper insight
+- OHLC (Open, High, Low, Close) prices  
+- Volume and Market Cap  
+- Time series in daily/monthly format  
+- Optional: Social sentiment data
 
-✅ Scalable & modular codebase for easy experimentation and expansion
+---
 
-✅ Backtesting framework to test models on unseen data
+## 🧪 Machine Learning Models
 
-🛠️ Tools & Technologies
+Implemented models for pattern recognition and prediction:
 
-💡 We’ve used powerful tools in the Python ecosystem:
+- 🔹 Linear & Polynomial Regression  
+- 🌳 Random Forest, XGBoost, LightGBM  
+- 🤖 Support Vector Machines (SVM)  
+- 🔄 K-Nearest Neighbors (KNN)  
+- 🧠 Multilayer Perceptron (MLP)
 
-Category	Libraries/Tools
-Data Handling	Pandas, NumPy
-Visualization	Matplotlib, Seaborn, Plotly
-Machine Learning	Scikit-learn, XGBoost, LightGBM
-Deep Learning	TensorFlow, Keras, LSTM, GRU
-Time Series Forecasting	ARIMA, SARIMA, Prophet, VAR
-Others	Jupyter, Streamlit (optional UI)
-📊 Data Sources
+---
 
-We’ve pulled accurate and comprehensive crypto market data from:
+## 📈 Forecasting Techniques
 
-🔗 CoinGecko API
+Advanced forecasting techniques used:
 
-🔗 Binance API
+- 📉 ARIMA / SARIMA  
+- ⏱️ Facebook Prophet  
+- 🔮 LSTM (Long Short-Term Memory)  
+- 🔬 GRU (Gated Recurrent Unit)  
+- ⚙️ Hybrid approaches combining statistical + DL models
 
-🔗 Yahoo Finance
+---
 
-🔗 Kaggle Datasets
+## 📂 Project Structure
 
-Historical data includes:
-
-Open, High, Low, Close (OHLC) prices
-
-Volume traded
-
-Market Cap
-
-Sentiment (optional extensions)
-
-🧪 Machine Learning Models
-
-To capture price patterns and make predictions, we’ve experimented with:
-
-📉 Linear Regression & Polynomial Regression
-
-🌳 Random Forest, XGBoost, LightGBM
-
-🤖 Support Vector Machines (SVM)
-
-🔄 k-Nearest Neighbors (KNN)
-
-🧠 Neural Networks (MLP, DNN)
-
-📈 Forecasting Techniques
-
-To deal with the time series nature of crypto prices:
-
-📊 ARIMA / SARIMA for classical statistical modeling
-
-⏱️ Facebook Prophet for trend + seasonality modeling
-
-🧬 LSTM (Long Short-Term Memory) & GRU networks for sequence modeling
-
-🧠 Hybrid models: Statistical + Deep Learning
-
-📂 Project Structure
 📁 Cryptocurrency-Price-Trends-Forecasting/
 │
-├── 📁 data/                   # Raw and processed datasets
-├── 📁 notebooks/              # Jupyter notebooks for EDA, modeling
-├── 📁 models/                 # Trained model files
-├── 📁 utils/                  # Helper scripts and functions
-├── 📁 results/                # Forecast results, graphs
-├── 📁 dashboards/             # Optional: Streamlit/Plotly Dash apps
-├── 📄 README.md               # This file
-├── 📄 requirements.txt        # Project dependencies
-└── 📄 LICENSE
+├── 📁 data/ # Raw and processed datasets
+├── 📁 notebooks/ # Jupyter notebooks for EDA & modeling
+├── 📁 models/ # Saved model files
+├── 📁 utils/ # Utility scripts
+├── 📁 results/ # Outputs, graphs, metrics
+├── 📁 dashboards/ # (Optional) Streamlit dashboards
+├── 📄 README.md # Project documentation
+├── 📄 requirements.txt # Required Python packages
+└── 📄 LICENSE # Open-source license
 
-🧭 Roadmap
 
- Build baseline forecasting models (ARIMA, Prophet)
+---
 
- Implement deep learning models (LSTM, GRU)
+## 🧭 Roadmap
 
- Compare model performances
+- [x] Collect and clean historical crypto price data  
+- [x] Perform exploratory data analysis (EDA)  
+- [x] Build baseline models (ARIMA, Prophet)  
+- [x] Train deep learning models (LSTM, GRU)  
+- [ ] Add support for multiple cryptocurrencies  
+- [ ] Create Streamlit dashboard for live predictions  
+- [ ] Integrate Twitter/Reddit sentiment analysis  
+- [ ] Deploy as a web app using Flask/Streamlit
 
- Add multi-currency support
+---
 
- Build real-time dashboard with Streamlit
+## 🤝 Contributing
 
- Incorporate sentiment analysis from Twitter/Reddit
+We welcome contributions from everyone! To contribute:
 
- Deploy models via Flask/Streamlit app
+1. 🍴 Fork the repository  
+2. 🔧 Create a new branch: `git checkout -b feature-xyz`  
+3. 📝 Make your changes  
+4. 📩 Submit a pull request
 
-🤝 Contributing
+> Let’s build this together! 🙌
 
-Contributions are welcome! If you have ideas, spot bugs, or want to add a model or visualization:
+---
 
-🍴 Fork the repository
+## 📄 License
 
-📦 Create your branch: git checkout -b feature-xyz
+This project is licensed under the **MIT License**.  
+You’re free to use, modify, and distribute it — just give credit!  
+See the full license in the [LICENSE](LICENSE) file.
 
-✅ Commit your changes
+---
 
-📩 Submit a pull request
+## 🌟 Show Support
 
-Let’s build this together! 💪
+If you like this project, please:
 
-📄 License
+- ⭐ Star this repository  
+- 🧑‍💻 Follow the author  
+- 📣 Share with your network!
 
-This project is licensed under the MIT License — you’re free to use, modify, and distribute it with attribution. See the LICENSE
- file for details.
+---
 
-🌟 Show Support
+## 🔗 Connect With Me
+- 💼 LinkedIn: https://www.linkedin.com/in/shruthi-vatham-272a4a312/
+- 📬 Email:shruthivatham33@gmail.com
 
-If you found this project insightful:
 
-⭐ Star this repo
+---
 
-🧑‍💻 Follow for updates
-
-🗣️ Share with your fellow developers and crypto enthusiasts!
-
-🔗 Connect With Me
-
-Feel free to connect or reach out for collaboration or feedback:
-
-💼 LinkedIn: https://www.linkedin.com/in/shruthi-vatham-272a4a312/
-
-📬 Email: shruthivatham33@gmail.com
